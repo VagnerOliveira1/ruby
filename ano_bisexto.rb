@@ -8,10 +8,10 @@ ano_inicial = gets.to_i
 puts " Digite o ano final  "
 ano_final = gets.to_i
 
-while ano_inicial <= ano_final 
+while ano_inicial <= ano_final
     if ano_inicial % 4 == 0
         if ano_inicial % 400 == 0 or ano_inicial % 100 != 0
-            print "#{ano_inicial}-"
+            puts "#{ano_inicial}"
         end
     end
     ano_inicial += 1
